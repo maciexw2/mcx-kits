@@ -1,0 +1,118 @@
+@import url("https://fonts.cdnfonts.com/css/inter");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  overflow: hidden;
+}
+span {
+  position: absolute;
+  top: 1vw;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.x {
+  position: absolute;
+  top: 1vw;
+  left: 1vw;
+
+  background-color: rgb(0, 132, 255);
+  width: 20px;
+  height: 20px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border-radius: 0.3rem;
+  display: flex;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.x:hover {
+  background-color: rgb(0, 0, 255);
+}
+.x:active {
+  background-color: rgb(111, 0, 255);
+}
+.container {
+  position: absolute;
+  top: -30%;
+  left: 50%;
+  width: 40vw;
+  height: 50vh;
+  background: rgb(6, 127, 203);
+  background: -moz-linear-gradient(
+    144deg,
+    rgba(6, 127, 203, 1) 20%,
+    rgba(5, 138, 209, 1) 29%,
+    rgba(5, 136, 208, 1) 44%,
+    rgba(0, 221, 255, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    144deg,
+    rgba(6, 127, 203, 1) 20%,
+    rgba(5, 138, 209, 1) 29%,
+    rgba(5, 136, 208, 1) 44%,
+    rgba(0, 221, 255, 1) 100%
+  );
+  background: linear-gradient(
+    144deg,
+    rgba(6, 127, 203, 1) 20%,
+    rgba(5, 138, 209, 1) 29%,
+    rgba(5, 136, 208, 1) 44%,
+    rgba(0, 221, 255, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#067fcb",endColorstr="#00ddff",GradientType=1);
+  transform: translate(-50%, -50%);
+  border-radius: 0.5rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 7vw;
+  overflow: hidden;
+}
+.box {
+  position: relative;
+  width: 11vw;
+  height: 17vw;
+  background-color: rgb(0, 132, 255);
+  border-radius: 0.2rem;
+}
+.choose {
+  position: absolute;
+  bottom: 0;
+  transform: translate(-50%, -50%);
+  border: none;
+  width: 5vw;
+  height: 1.2vw;
+  border-radius: 0.2rem;
+  background-color: rgb(100, 155, 255);
+  transition: 0.2s;
+  font-weight: 550;
+}
+.choose:hover {
+  background-color: rgb(39, 117, 219);
+}
+.desc {
+  position: absolute;
+  font-size: 0.7vw;
+  left: 50%;
+  bottom: 2.5vw;
+  transform: translateX(-50%);
+  overflow-wrap: break-word;
+  width: 4vw;
+}
+img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.choose-text {
+  position: absolute;
+  font-size: 3rem;
+  font-weight: 700;
+  bottom: -20%;
+}

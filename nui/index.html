@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kity</title>
+    <link href="style.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="x" onclick="handleHideUIButton()">X</div>
+      <span class="title"> Wybierz Zestaw</span>
+      <div class="box">
+        <span class="desc">1x Pistolet 90x Ammo </span>
+        <img src="image/WEAPON_PISTOL.png" />
+        <button class="choose" id="button1" onclick="onChoose(1)">
+          Wybierz
+        </button>
+      </div>
+      <div class="box">
+        <span class="desc">1x Pistolet 90x Ammo</span>
+        <img src="image/WEAPON_PISTOL.png" />
+        <button class="choose" id="button2" onclick="onChoose(2)">
+          Wybierz
+        </button>
+      </div>
+      <div class="choose-text">Wybrałeś zestaw!</div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
